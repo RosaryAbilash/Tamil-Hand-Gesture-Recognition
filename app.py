@@ -77,10 +77,6 @@ while True:
     frame_with_text = np.array(pil_frame)
 
 
-    
-    # cv2.putText(frame, className, (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 
-    #                1, (0,0,255), 2, cv2.LINE_AA)
-
     pil_frame_width, pil_frame_height = pil_frame.size
     combined_frame[:pil_frame_height, :pil_frame_width] = pil_frame
 
